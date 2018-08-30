@@ -89,13 +89,13 @@ dependencies:
 - widgetsnbextension
 - xz
 - zeromq
-- pytorch<0.4
+- pytorch
 - bcolz
 - prompt_toolkit
 - pytest
 - pip:
   - torchvision>=0.1.9
-  - opencv-python
+  - opencv-python-headless
   - isoweek
   - pandas_summary==0.0.5
   - torchtext
