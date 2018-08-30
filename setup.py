@@ -19,10 +19,10 @@ setup(
     install_requires =
      ['bcolz', 'bleach', 'certifi', 'cycler', 'decorator', 'entrypoints', 'feather-format', 'graphviz', 'html5lib',
       'ipykernel', 'ipython', 'ipython-genutils', 'ipywidgets', 'isoweek', 'jedi', 'Jinja2', 'jsonschema', 'jupyter',
-      'MarkupSafe', 'matplotlib', 'numpy', 'opencv-python', 'pandas',
+      'MarkupSafe', 'matplotlib', 'numpy', 'opencv-python-headless', 'pandas',
       'pandas_summary', 'pickleshare', 'Pillow', 'plotnine',
       'ptyprocess', 'Pygments', 'pyparsing', 'python-dateutil', 'pytz', 'PyYAML', 'pyzmq', 'scipy',
-      'seaborn', 'simplegeneric', 'sklearn_pandas', 'testpath', 'torch<0.4', 'torchtext', 'torchvision', 'tornado', 'tqdm',
+      'seaborn', 'simplegeneric', 'sklearn_pandas', 'testpath', 'torch', 'torchtext', 'torchvision', 'tornado', 'tqdm',
       'traitlets', 'wcwidth', 'webencodings', 'widgetsnbextension'],
     keywords = ['deeplearning', 'pytorch', 'machinelearning'],
     classifiers = ['Development Status :: 3 - Alpha',
